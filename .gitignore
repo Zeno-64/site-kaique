@@ -1,0 +1,5 @@
+# Backup do WordPress (387 MB, contém o banco de dados completo)
+*.wpress
+
+# Configuração local do editor
+.claude/
