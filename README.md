@@ -84,6 +84,30 @@ Rótulos curtos de interface montados a partir do copy existente (sem texto pers
 botão "Fale com o nutri", faixa de credenciais (UERJ, Nutrição Comportamental, Bangu, online em mais de 5 estados),
 selos sobre as fotos e os números da seção "Sobre mim" (27 kg, +15 kg, 9 anos).
 
+## Atualização: Método M.V.P
+
+Fonte: `Método M.V.P — Apresentação.html`. A promessa e a estrutura da oferta foram atualizadas.
+
+| Onde | Antes | Depois |
+|---|---|---|
+| `<title>`, `og:title` | Nutricionista Esportivo On line e Rio de Janeiro | Método M.V.P — Nutricionista Esportivo Online e Rio de Janeiro |
+| `description`, `og:description` | Perca 10 kg em 90 dias | Emagreça até 20 kg (ou mais) em 180 dias |
+| H1 do hero | Perca 10 kg em 90 dias e recupere sua Autoestima e Disposição... | Quebre o ciclo da sobrevivência e emagreça até 20 kg (ou mais) em 180 dias |
+| Selo do hero | Nutricionista Esportivo em Bangu - RJ e Online! | Método M.V.P · Nutricionista Esportivo em Bangu - RJ e Online! |
+| Passo 04 de "Como funciona" | "irei te ensinar os conhecimentos essenciais" | aponta para o Sistema Anti-Efeito Sanfona (6 módulos, 6 metas, inteligência emocional) |
+
+Duas seções novas entraram entre "Como funciona" e "Sobre mim":
+
+- `#metodo` — **Sistema Anti-Efeito Sanfona**: linha do tempo com os 6 módulos (A arte de queimar + calorias,
+  Mentalidade campeã, Calorias inteligentes, Fome sob controle, Ambiente e escolhas, Decifrando rótulos),
+  mais os cards de "6 metas personalizadas" e "Técnicas de inteligência emocional" (Observação, Sentimentos,
+  Necessidades, Pedido específico).
+- `#ferramentas` — **Ferramentas de acompanhamento**: diário alimentar com feedback do nutri, método check-in e
+  biblioteca da vida real. As três ilustrações são mock-ups em CSS, sem imagem nova.
+
+O menu ganhou o link "Método M.V.P" e os dois botões novos usam os `data-cta` `metodo` e `ferramentas`
+no Meta Pixel. O restante do copy (histórias, sobre, FAQ, rodapé) não mudou.
+
 ## O que não veio do site antigo
 
 - O banner de cookies do Complianz (plugin do WordPress). Como a página usa o Meta Pixel, avalie incluir um aviso de
