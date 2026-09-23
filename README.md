@@ -108,6 +108,22 @@ Duas seções novas entraram entre "Como funciona" e "Sobre mim":
 O menu ganhou o link "Método M.V.P" e os dois botões novos usam os `data-cta` `metodo` e `ferramentas`
 no Meta Pixel. O restante do copy (histórias, sobre, FAQ, rodapé) não mudou.
 
+## Logo
+
+A marca M.V.P substituiu o emblema da anilha no cabeçalho, no CTA final, no rodapé e nos ícones.
+Como a marca é azul-marinho e duas dessas áreas têm fundo navy, há duas versões do arquivo:
+
+- `assets/img/logo-mvp.webp` — navy, para o cabeçalho (fundo creme).
+- `assets/img/logo-mvp-branco.webp` — branca, para o CTA final e o rodapé (fundo navy).
+- `favicon.png` (256px) e `apple-touch-icon.png` (180px) — a marca centralizada sobre fundo creme, porque
+  ícone transparente some em interface escura e o iOS compõe sobre preto.
+
+A marca é horizontal (431×267), então no CSS os três usos passaram a ser dimensionados pela altura
+(`height`, com `width: auto`), e não mais pela largura.
+
+O `assets/img/logo-anilha.webp` continua no repositório, sem uso, caso seja preciso voltar atrás.
+A `assets/img/og-image.jpg` (imagem de compartilhamento) ainda traz o emblema antigo e precisa ser refeita à parte.
+
 ## O que não veio do site antigo
 
 - O banner de cookies do Complianz (plugin do WordPress). Como a página usa o Meta Pixel, avalie incluir um aviso de
